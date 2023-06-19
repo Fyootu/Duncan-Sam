@@ -13,22 +13,27 @@
     <h1 id="title">Survey Form</h1>
     <p id="description">This is a survey for built by Duncan-Sam for Microverse Project</p>
        <form id="survey-form">
+          <div>
           <label id="name-label" for="name">Name</label>
           <input type="text" id="name" placeholder="Sam Jubril" required/>
+          </div>
+          <div>
           <label id="email-label" for="email">Email</label>
           <input type="email" id="email" placeholder="abc@gmail.com" required/>
-          <label id="number-label" for="Number">Number</label>
-          <input type="number" min="10" max="16" id="number" placeholder="0706288456" required/>
-           <select 
+          </div>
+          <div>
+          <label id="number-label" for="Number">Age</label>
+          <input type="number" min="16" max="40" id="number" placeholder="18" required/>
+          </div>
+          <label for="Food choices">Choose Food</label>
+          <select> 
             id="dropdown">
             <label for="Choice ">Choice of food</label>
             <option value="rice" >Rice</option>
             <option value="Beans">Beans</option>
+          </select>
             <br>
-            <label for="male">Male
-            <input type="radio" name="gender" value="male"/>
-            </label>
-            <label>
+             
               <input
                 name="user-recommend"
                 value="definitely"
@@ -43,9 +48,11 @@
                   type="radio"
                   class="input-radio"
                 />Female
-                </label
-              <div>
-
+              </label>
+              
+            
+               <div>
+                <p>Select your subjects</p>
                 <label for="Mathematics">Mathematics</label>
                 <input type="checkbox" name="Mathematics">
                 <label for="Biology">Biology</label>
@@ -67,7 +74,7 @@
             
 
 
-       </select>
+       
        </form>
 
 
