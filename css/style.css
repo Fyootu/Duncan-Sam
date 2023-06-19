@@ -1,0 +1,48 @@
+body{
+    margin:2px;
+    font-family:Arial, sans-serif;
+    font-size:small;
+
+}
+#title{
+    background:blue;
+    color:white;
+    padding:15px;
+    text-align:center;
+}
+#description{
+    font-size:medium;
+    color:red;
+    font-weight:bold;
+}
+#name-label{
+    font-weight:bold;
+}
+#email-label{
+    font-weight:bold;
+    padding-top:1px;
+    margin-top:10px;
+}
+#number-label{
+    font-weight:bold;
+    margin-top:10px;
+}
+#food{
+    font-weight:bold;
+    
+}
+#subject{
+    font-weight:bold;
+}
+#comment{
+    font-weight:bold;
+}
+button{
+    background:blue;
+    color:white;
+}
+
+div{
+    margin-top:10px;
+}
+

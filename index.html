@@ -25,13 +25,15 @@
           <label id="number-label" for="Number">Age</label>
           <input type="number" min="16" max="40" id="number" placeholder="18" required/>
           </div>
-          <label for="Food choices">Choose Food</label>
-          <select> 
+          <div>
+                     <label for="Food choices" id="food">Choose Food</label>
+          <select 
             id="dropdown">
             <label for="Choice ">Choice of food</label>
             <option value="rice" >Rice</option>
             <option value="Beans">Beans</option>
           </select>
+          </div>
             <br>
              
               <input
@@ -52,7 +54,7 @@
               
             
                <div>
-                <p>Select your subjects</p>
+                <p id="subject">Select your subjects</p>
                 <label for="Mathematics">Mathematics</label>
                 <input type="checkbox" name="Mathematics">
                 <label for="Biology">Biology</label>
@@ -61,7 +63,7 @@
                 <input type="checkbox" name="English">
                </div>
               <div>
-              <label for="comment">Additional comments</label>
+              <label for="comment" id="comment">Additional comments</label>
               <textarea id="comment" rows="2" cols="30"></textarea>
 
               </div>
